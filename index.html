@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand" rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Yle Severino Carvalho</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <script>
+          function email()
+          {
+            let email = document.querySelector("#email").value;
+
+            if (email.includes('@',4))
+            {
+                document.querySelector("#email_box").innerHTML =
+                  '<div class="alert alert-success" role="alert"> email incrito com sucesso Spam a caminho :D </div>';
+            }
+
+            else
+            {
+              let error = '<div class="alert alert-danger" role="alert"> email escrito errado! </div>';
+              let html = document.querySelector("#email_box").innerHTML;
+              document.querySelector("#email_box").innerHTML = error;
+              setTimeout(() => {document.querySelector("#email_box").innerHTML = html;}, 5000);
+
+            }
+
+          }
+        </script>
+    </head>
+    <body>
+    <!--<div id = "menu">-->
+    <!--  <div id = "title"><h1>Yle Severino Carvalho</h1></div>-->
+
+    <!--  <div id = "right">-->
+    <!--      <ul>-->
+    <!--          <li><a href="programador.html"><button type="button" class="btn btn-outline-light">Programador</button></li></a>-->
+    <!--          <li><a href="gamer.html"><button type="button" class="btn btn-outline-light">Gamer</button></li></a>-->
+    <!--          <li><a  href="danca.html" ><button type="button" class="btn btn-outline-light">Dançarino</button></li></a>-->
+    <!--          <li><a  href="index.html" ><button type="button"class="btn btn-outline-light">Home</button></li></a>-->
+    <!--      </ul>-->
+    <!--  </div>-->
+    <!--</div>-->
+
+    <!--<div class="card-footer text-muted">-->
+    <!--    Feito Por <a href="https://github.com/yleseverino">Yle Severino Carvalho</a>-->
+    <!--</div>-->
+
+    <nav class="navbar navbar-dark custom">
+      <a class="navbar-brand"><h1>Yle Severino Carvalho</h1></a>
+      <form class="form-inline">
+        <button class="btn btn-outline-success" type="button">Main button</button>
+        <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+      </form>
+    </nav>
+
+        <div class="cont">
+            <div class="parallax"></div>
+            <div class="center"><h2>🥳 </h2></div>
+        </div>
+
+        <h2 class="about">Quem sou eu?</h2>
+
+          <div class="card-deck ">
+              <div class="card bg-dark m-5">
+                <img class="card-img-top" src="images/stardew-valley-collectors-edition-announced-for-retail_uxwz.h720.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h2 class="card-title text-white bg-dark">Gamer</h2>
+                  <p class="card-text text-white bg-dark">Jogador casual de games indies, contudo possui o título de pescador profissional tanto do Stardew Valley como no World of Warcraft</p>
+                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card bg-dark">
+                <img class="card-img-top" src="images/forro2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h2 class="card-title text-white bg-dark">Dançarino</h2>
+                  <p class="card-text text-white bg-dark">O Yle estuda forró nas horas vagas com sua namorada, apesar de ser iniciante consegue às vezes acompanhar o ritmo da música</p>
+                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 2 days ago</small></p>
+                </div>
+              </div>
+              <div class="card bg-dark m-5">
+                <img class="card-img-top" src="images/teste3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h2 class="card-title text-white bg-dark">Programador</h2>
+                  <p class="card-text text-white bg-dark">Adora linguagems com cunho cientifico e estatístico como R, Python e Julia, mas ultimamente tem se divertido muito com C e SQL</p>
+                  <a href="#" class="btn btn-primary">Saiba mais</a>
+                  <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 5 hours ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="rodape" class="card text-center text-white bg-dark">
+          <div class="card-header">
+            Muito obrigado pela visita!
+          </div>
+          <div class="card-body" id="email_box">
+            <h5 class="card-title">Deseja receber + span no seu email</h5>
+            <p class="card-text">Por favor se inscreva aqui embaixo</p>
+            <div class="input-group mb-3" >
+              <input type="text" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="email();">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+            Feito Por <a href="https://github.com/yleseverino">Yle Severino Carvalho</a>
+          </div>
+        </div>
+
+
+    </body>
+</html>
