@@ -20,7 +20,7 @@
 <h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>📥 Layout available hosted in github pages</a></h2>
 
 <h2 align="center">Todo 📌</h2>
-<p align="center">
+<div align="center">
 - [x] Home screen
     - [x] Parallax effect with css
     - [x] Navigation Bar
@@ -31,7 +31,7 @@
     - [ ] Responsive
 - [ ] Programing page
 - [ ] Gamer page
-</p>
+</div>
 
 
 Give a ⭐️ if this project helped you!
