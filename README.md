@@ -31,10 +31,12 @@
     - [X] Table HTML
     - [ ] Responsive
 - [ ] Programing page
+  - [ ] Responsive
 - [ ] Gamer page
+  - [ ] Responsive
 
 <div align="center">
-  <sub> Give a ⭐️ if this project helped you!
+  <sub> Give a ⭐️ if you like the site!
   </sub>
 </div>
 
