@@ -17,9 +17,10 @@
   </sub>
 </div>
 
-<h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>📥 Layout available hosted in github pages</a></h2>
+<h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>Preview in github pages</a></h2>
 
-<h2 align="center">Todo 📌</h2>
+<h2>Todo 📌</h2>
+
 
 - [x] Home screen
     - [x] Parallax effect with css
@@ -32,6 +33,8 @@
 - [ ] Programing page
 - [ ] Gamer page
 
-
-Give a ⭐️ if this project helped you!
+<div align="center">
+  <sub> Give a ⭐️ if this project helped you!
+  </sub>
+</div>
 
