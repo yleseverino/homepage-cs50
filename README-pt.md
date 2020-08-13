@@ -17,7 +17,7 @@
   </sub>
 </div>
 
-<h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>Site in github pages</a></h2>
+<h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>Pré visualização do site</a></h2>
 
 <h2>Todo 📌</h2>
 
