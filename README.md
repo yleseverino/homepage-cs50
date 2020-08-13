@@ -19,8 +19,8 @@
 
 <h2 align="center"><a href='https://yleseverino.github.io/homepage-cs50/'>📥 Layout available hosted in github pages</a></h2>
 
-## Todo 📌
-
+<h2 align="center">Todo 📌</h2>
+<p align="center">
 Version 2.0 Features
 
 - [x] Home screen
@@ -33,7 +33,7 @@ Version 2.0 Features
     - [ ] Responsive
 - [ ] Programing page
 - [ ] Gamer page
-
+</p>
 
 
 Give a ⭐️ if this project helped you!
