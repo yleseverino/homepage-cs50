@@ -21,8 +21,6 @@
 
 <h2 align="center">Todo 📌</h2>
 <p align="center">
-Version 2.0 Features
-
 - [x] Home screen
     - [x] Parallax effect with css
     - [x] Navigation Bar
