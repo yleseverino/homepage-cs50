@@ -1,4 +1,3 @@
-
 h1
 {
     color:#EEEEEE;
@@ -29,12 +28,10 @@ h2
 
 }
 
-p
-{
-    color:#EEEEEE;
-    font-family:"Quicksand";
-    font-size:16px;
+.container p {
+  font-size: 40px;
 }
+
 
 .image {
   position: relative;
@@ -109,7 +106,6 @@ footer h3 {
   }
 
 
-
 @media screen and (max-width: 1080px) {
 
   main h2 {
@@ -139,13 +135,9 @@ footer h3 {
     font-size: 40px !important;
   }
 
-  section .car {
-    align
-  }
-
   footer .card-header {
     font-size: 60px;
-    font-family:"Abril Fatface";
+    font-family: "Abril Fatface";
 
   }
 
@@ -161,6 +153,4 @@ footer h3 {
   footer .card-footer {
     font-size: 30px;
   }
-
-
 }

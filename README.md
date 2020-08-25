@@ -26,14 +26,14 @@
     - [x] Parallax effect with css
     - [x] Navigation Bar
     - [x] Validation email subscribe with JS
-    - [ ] Responsive
-- [ ] Dance page
+    - [x] Responsive
+- [x] Dance page
     - [X] Table HTML
-    - [ ] Responsive
-- [ ] Programing page
-  - [ ] Responsive
-- [ ] Gamer page
-  - [ ] Responsive
+    - [x] Responsive
+- [x] Programing page
+  - [x] Responsive
+- [x] Gamer page
+  - [x] Responsive
 
 <div align="center">
   <sub> Give a ⭐️ if you like the site!
