@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pt">
+<html lang="pt-BR">
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand" rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
@@ -11,7 +11,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <link href="styles.css" rel="stylesheet">
         <title>Yle Severino Carvalho</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" type="image/png" href="/images/favicon.ico">
         <script>
           function email()
           {
@@ -36,57 +36,48 @@
         </script>
     </head>
     <body>
-    <!--<div id = "menu">-->
-    <!--  <div id = "title"><h1>Yle Severino Carvalho</h1></div>-->
 
-    <!--  <div id = "right">-->
-    <!--      <ul>-->
-    <!--          <li><a href="programador.html"><button type="button" class="btn btn-outline-light">Programador</button></li></a>-->
-    <!--          <li><a href="gamer.html"><button type="button" class="btn btn-outline-light">Gamer</button></li></a>-->
-    <!--          <li><a  href="danca.html" ><button type="button" class="btn btn-outline-light">Dançarino</button></li></a>-->
-    <!--          <li><a  href="index.html" ><button type="button"class="btn btn-outline-light">Home</button></li></a>-->
-    <!--      </ul>-->
-    <!--  </div>-->
-    <!--</div>-->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark custom">
+        <a class="navbar-brand"><h1>Yle Severino Carvalho</h1></a>
 
-    <!--<div class="card-footer text-muted">-->
-    <!--    Feito Por <a href="https://github.com/yleseverino">Yle Severino Carvalho</a>-->
-    <!--</div>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark custom">
-      <a class="navbar-brand"><h1>Yle S. Carvalho</h1></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link menuzinho" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuzinho" href="danca.html">Dança</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuzinho" href="programador.html">Programação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuzinho" href="gamer.html">Gamer</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link menuzinho" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link menuzinho" href="danca.html">Dança</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link menuzinho" href="programador.html">Programação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link menuzinho" href="gamer.html">Gamer</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-        <div class="cont">
+      <div class="cont">
             <div class="parallax"></div>
             <div class="center"><h2>🥳</h2></div>
-        </div>
+      </div>
 
-        <h2 class="about">Quem sou eu?</h2>
+    <main>
+       <h2 class="about">Quem sou eu?</h2>
 
-          <div class="card-deck">
-              <div class="card bg-dark m-5">
+      <section>
+        <div class="card-deck">
+          <div class="row">
+          <div class="col-md-13 col-lg-8 col-xl-4 py-8">
+              <div class="card bg-dark m-3">
                 <img class="card-img-top" src="images/stardew-valley-collectors-edition-announced-for-retail_uxwz.h720.webp" alt="Card image cap">
                 <div class="card-body">
                   <h2 class="card-title text-white bg-dark">Gamer</h2>
@@ -94,8 +85,11 @@
                   <a href="gamer.html" class="btn btn-primary">Saiba mais</a>
                   <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 3 mins ago</small></p>
                 </div>
+                </div>
+
               </div>
-              <div class="card bg-dark">
+            <div class="col-md-13 col-lg-8 col-xl-4 py-2">
+              <div class="card bg-dark" >
                 <img class="card-img-top" src="images/forro2.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h2 class="card-title text-white bg-dark">Dançarino</h2>
@@ -103,8 +97,11 @@
                   <a href="danca.html" class="btn btn-primary">Saiba mais</a>
                   <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 2 days ago</small></p>
                 </div>
+                </div>
+
               </div>
-              <div class="card bg-dark m-5">
+            <div class="col-md-13 col-lg-8 col-xl-4 py-2">
+              <div class="card bg-dark m-3">
                 <img class="card-img-top" src="images/teste3.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h2 class="card-title text-white bg-dark">Programador</h2>
@@ -112,27 +109,35 @@
                   <a href="programador.html" class="btn btn-primary">Saiba mais</a>
                   <p class="card-text text-white bg-dark"><small class="text-muted text-white bg-dark">Last updated 5 hours ago</small></p>
                 </div>
+                </div>
             </div>
           </div>
+          </div>
+      </section>
+    </main>
 
-        <div id="rodape" class="card text-center text-white bg-dark">
-          <div class="card-header">
-            Muito obrigado pela visita!
-          </div>
-          <div class="card-body" id="email_box">
-            <h5 class="card-title">Deseja receber + span no seu email</h5>
-            <p class="card-text">Por favor se inscreva aqui embaixo</p>
-            <div class="input-group mb-3" >
-              <input type="text" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" onclick="email();">Subscribe</button>
-              </div>
-            </div>
-          </div>
-          <div class="card-footer text-muted">
-            Feito Por <a href="https://github.com/yleseverino">Yle Severino Carvalho</a>
+
+
+
+
+    <footer id="container rodape" class="card text-center text-white bg-dark">
+      <div class="card-header">
+        Muito obrigado pela visita!
+      </div>
+      <div class="card-body" id="email_box">
+        <h3 class="card-title">Deseja receber + span no seu email</h3>
+        <p class="card-text">Por favor se inscreva aqui embaixo</p>
+        <div class="input-group mb-3" >
+          <input type="text" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" onclick="email();">Subscribe</button>
           </div>
         </div>
+      </div>
+      <div class="card-footer text-muted">
+        Feito Por <a href="https://github.com/yleseverino">Yle Severino Carvalho</a>
+      </div>
+    </footer>
 
 
     </body>

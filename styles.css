@@ -1,3 +1,4 @@
+
 h1
 {
     color:#EEEEEE;
@@ -17,7 +18,7 @@ h1
 
 .menuzinho
 {
-    font-family:"Lato";
+    font-family:"Quicksand";
     font-size:20px;
 }
 
@@ -31,7 +32,7 @@ h2
 p
 {
     color:#EEEEEE;
-    font-family:"Lato";
+    font-family:"Quicksand";
     font-size:16px;
 }
 
@@ -93,4 +94,73 @@ body,.custom
 #rodape
 {
   margin-top:50px;
+}
+
+h2 code {
+  color: #0069D9;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+footer h3 {
+    font-family:"Quicksand";
+  }
+
+
+
+@media screen and (max-width: 1080px) {
+
+  main h2 {
+    font-size: 80px !important;
+    margin-bottom:0px;
+    margin-top:0px;
+  }
+
+  header nav ul a{
+    font-size: 60px !important;
+  }
+
+  section h2 {
+    font-size: 60px !important;
+    text-align: center !important;
+  }
+
+  section p {
+    font-size: 40px !important;
+    text-align: center !important;
+  }
+
+  section a {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 40px !important;
+  }
+
+  section .car {
+    align
+  }
+
+  footer .card-header {
+    font-size: 60px;
+    font-family:"Abril Fatface";
+
+  }
+
+  footer h3 {
+    font-size: 40px;
+    font-family:"Quicksand";
+  }
+
+  footer p {
+    font-size: 40px;
+  }
+
+  footer .card-footer {
+    font-size: 30px;
+  }
+
+
 }
